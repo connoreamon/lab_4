@@ -1,0 +1,118 @@
+<!-- Registration Page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Register Page</title>
+	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="../resources/css/my_style.css" rel="stylesheet">
+  </head>
+  <body>
+
+	<img src="../resources/img/beproudcapaabanner.jpg" class="img-fluid" alt="Registration Page Banner for CU Football">
+    <br>
+	<br>
+	<div class="container">
+		<form action="home.html">
+			<!--
+				Todo: Create a form with the following fields:
+					1. Name Text Field
+					2. Email Text Field
+					3. Password Text Field
+					4. Password Confirmation Text Field
+					5. Email Text Field
+					6. CU Boulder Alumni Radio Button
+					7. CU Boulder Student Radio Button
+					8. CU Boulder Undergrad/Grad Radio Button
+					9. Undergraduate Select (Freshman-Senior)
+					10. Graduate Select (MA, MBA, PhD)
+					11. Submit Button (links to home page)
+
+			-->
+      <form>
+  <div class="form-group row">
+    <label for="text" class="col-4 col-form-label">Full Name</label>
+    <div class="col-8">
+      <input id="text" name="text" placeholder="Enter Name" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text1" class="col-4 col-form-label">Email address</label>
+    <div class="col-8">
+      <input id="text1" name="text1" placeholder="Enter email" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text2" class="col-4 col-form-label">Password</label>
+    <div class="col-8">
+      <input id="text2" name="text2" placeholder="Password" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="text3" class="col-4 col-form-label">Confirm Password</label>
+    <div class="col-8">
+      <input id="text3" name="text3" placeholder="Confirm Password" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-4">CU Boulder Alumni</label>
+    <div class="col-8">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="rabbit">
+        <label for="radio_0" class="custom-control-label">Yes</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="duck">
+        <label for="radio_1" class="custom-control-label">No</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-4">CU Boulder Student</label>
+    <div class="col-8">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio1" id="radio1_0" type="radio" class="custom-control-input" value="rabbit">
+        <label for="radio1_0" class="custom-control-label">Yes</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio1" id="radio1_1" type="radio" class="custom-control-input" value="duck">
+        <label for="radio1_1" class="custom-control-label">No</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-4">Student Status</label>
+    <div class="col-8">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio2" id="radio2_0" type="radio" class="custom-control-input" value="Undergrad">
+        <label for="radio2_0" class="custom-control-label">Undergrad</label>
+        <select id="select" name="select" class="custom-select">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+      </select>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio2" id="radio2_1" type="radio" class="custom-control-input" value="grad">
+        <label for="radio2_1" class="custom-control-label">Grad</label>
+        <select id="select" name="select" class="custom-select">
+        <option value="yes">yes</option>
+        <option value="no">no</option>
+      </select>
+      </div>
+    </div>
+  </div>
+  </div>
+</form>
+
+			<input type="submit" value="submit" class="btn btn-primary btn-block">
+		</form>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
